@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"module": "esnext",
+		"target": "esnext",
+		"lib": ["esnext", "dom"],
+		"importHelpers": true,
+		"sourceMap": true,
+		//Turn off declaration and turn on allowJs for non-library
+		"allowJs": false,
+		"jsx": "react",
+		"moduleResolution": "node",
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"suppressImplicitAnyIndexErrors": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true
+	},
+	"includes": ["./tsexternals.d.ts"],
+	"exclude": ["node_modules"]
+}

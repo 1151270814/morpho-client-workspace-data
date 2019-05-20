@@ -1,0 +1,9 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"declaration": false,
+		"target": "es2017",
+		"rootDirs": ["src", "stories"]
+	},
+	"exclude": ["node_modules", "**/__tests__", "**/__mocks__"]
+}
